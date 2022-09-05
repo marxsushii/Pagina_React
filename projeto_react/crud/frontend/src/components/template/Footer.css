@@ -1,0 +1,30 @@
+footer.footer {
+    background: linear-gradient(-45deg, #32dac3,#07a7e3);
+    color: #f5f5f5;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons i, .address{
+    padding: 20px;
+    font-weight: 400;
+}
+
+.icons i:hover{
+    background: #f5f5f5;
+    color: #000000;
+    padding: 15px;
+}
+.column{
+    width: max-content;
+}

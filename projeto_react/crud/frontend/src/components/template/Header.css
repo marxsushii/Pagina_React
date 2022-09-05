@@ -1,0 +1,22 @@
+header.header {
+    background-image: url("../../assets/imgs/photo.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto;
+    height: 40vh;
+}
+
+header.header h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5em;
+    font-weight: 600;
+    color: #6fd6ff;
+    margin: 20vh 10px 15px 70vw;
+
+}
+.lead {
+    font-size: 1em;
+    margin: -5vh 10px 15px 70vw;
+    font-weight: 500;
+    color: #6fd6ff;
+}

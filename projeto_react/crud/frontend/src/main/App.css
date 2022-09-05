@@ -1,0 +1,13 @@
+:root {
+    --bg-light: #F5F5F5;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+    margin: 0px;
+}
+

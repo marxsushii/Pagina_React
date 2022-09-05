@@ -1,0 +1,48 @@
+.page-nav{
+    background-color: var(--bg-light);
+    display: flex;
+    flex-direction: row;
+    
+}
+aside.menu-area {
+    width: 80vw;
+}
+
+aside.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw
+}
+
+aside.logo img {
+    padding: 0px 15px;
+    width: 80px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color:#000000;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+    color: #F5F5F5;
+    padding: 15px;
+}
+
+@media (max-width:800px){
+    .icon{
+        display: none;
+    }
+}
